@@ -6,7 +6,7 @@ const inquirer = require('inquirer');
 const pakistaniCities = require('./index');
 
 program
-  .version('1.0.0')
+  .version('1.0.1')
   .description('CLI for Pakistani Cities Information');
 
 // List all cities

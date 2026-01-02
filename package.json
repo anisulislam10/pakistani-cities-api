@@ -1,6 +1,6 @@
 {
   "name": "pakistani-cities-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A comprehensive package to get cities of Pakistan by province with REST API and CLI",
   "main": "index.js",
   "bin": {
