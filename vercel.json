@@ -2,36 +2,13 @@
   "version": 2,
   "name": "pakistani-cities-api",
   "public": false,
-  "builds": [
-    {
-      "src": "src/server.js",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": ["src/**"]
-      }
-    }
-  ],
+  
   "routes": [
     {
       "src": "/(.*)",
       "dest": "src/server.js"
     }
-  ],
-  "env": {
-    "NODE_ENV": "production",
-    "PORT": "3000"
-  },
-  "functions": {
-    "src/server.js": {
-      "maxDuration": 30,
-      "memory": 1024
-    }
-  },
-  "regions": ["sin1"],
-  "git": {
-    "deploymentEnabled": {
-      "main": true,
-      "develop": true
-    }
-  }
+  ]
+ 
+  
 }
