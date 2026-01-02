@@ -1,0 +1,43 @@
+{
+  "name": "pakistani-cities-api",
+  "version": "1.0.0",
+  "description": "A comprehensive package to get cities of Pakistan by province with REST API and CLI",
+  "main": "index.js",
+  "bin": {
+    "pakistan-cities": "./cli.js"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/seedDatabase.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "pakistan",
+    "cities",
+    "provinces",
+    "api",
+    "express",
+    "mongodb"
+  ],
+  "author": "Anisul Islam",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^10.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "inquirer": "^9.1.5",
+    "mongodb": "^7.0.0",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anisulislam10/pakistani-cities-api.git"
+  }
+}
