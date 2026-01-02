@@ -23,7 +23,7 @@ npm install pakistani-cities-api
 
 As API Server
 bash
-git clone https://github.com/yourusername/pakistani-cities-api.git
+git clone https://github.com/anisulislam10/pakistani-cities-api.git
 cd pakistani-cities-api
 npm install
 npm run seed  # Seed the database
